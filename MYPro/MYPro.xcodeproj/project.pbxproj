@@ -13,6 +13,7 @@
 		CF9CEC2E1EE961A90079D8E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9CEC2C1EE961A90079D8E9 /* Main.storyboard */; };
 		CF9CEC301EE961A90079D8E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9CEC2F1EE961A90079D8E9 /* Assets.xcassets */; };
 		CF9CEC331EE961A90079D8E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9CEC311EE961A90079D8E9 /* LaunchScreen.storyboard */; };
+		CF9CEC3D1EE962090079D8E9 /* LPPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CEC3C1EE962090079D8E9 /* LPPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CF9CEC2F1EE961A90079D8E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF9CEC321EE961A90079D8E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF9CEC341EE961A90079D8E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9CEC3B1EE962090079D8E9 /* LPPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPPerson.h; sourceTree = "<group>"; };
+		CF9CEC3C1EE962090079D8E9 /* LPPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		CF9CEC3A1EE961BF0079D8E9 /* MYFrameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF9CEC3B1EE962090079D8E9 /* LPPerson.h */,
+				CF9CEC3C1EE962090079D8E9 /* LPPerson.m */,
 			);
 			path = MYFrameworks;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF9CEC3D1EE962090079D8E9 /* LPPerson.m in Sources */,
 				CF9CEC2B1EE961A90079D8E9 /* ViewController.m in Sources */,
 				CF9CEC281EE961A90079D8E9 /* AppDelegate.m in Sources */,
 				CF9CEC251EE961A90079D8E9 /* main.m in Sources */,
